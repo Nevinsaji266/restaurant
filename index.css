@@ -1,0 +1,378 @@
+*{
+    margin: 0px;
+    padding: 0px;
+ 
+    
+}
+#container{
+    width: 100%;
+    height: 100vh;
+    position: relative;  
+  
+}
+#navbar{
+  
+    display: flex;
+    width: 100%;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+   font-size: larger;
+    /* background-color: rgb(0, 0, 0); */
+    /* background-color: rgba(3, 3, 3, 0.988); */
+    background-color:#170c0c;
+  
+} 
+
+#logo{
+width: 110px;
+}
+.listItem
+{
+
+display: inline;
+margin: 5px 45px;
+font-weight: 900;
+
+
+
+}
+
+li a:hover{
+    color:white;
+
+}
+li a{
+    text-decoration: none;
+    color:white;
+    /* color: #f7cd39; */
+}
+
+/* #main{
+    /* width: 95%;
+    margin-left: 50px;
+    margin-right: 50px; 
+   
+   
+} */
+#main img{
+  width: 100%; 
+  position: absolute;
+  margin-top: 0px;
+  /* width: 65%;
+  height: 75%;
+margin-left: 200px; */
+height: 800px;
+ 
+}
+#main h1{
+    position: absolute;
+    padding-top: 16%;
+    margin-left:210px ;
+  text-align: center;
+  
+    font-size: 80px;
+    color:#fbfbea;
+     /* color:black; */
+    /* background-color: rgba(0, 0, 0, 0.055); */
+   
+}
+#pull{
+    margin-top: 800px;
+    background-color:#efb51e;
+    /* background-color: rgb(195, 28, 73); */
+    height: 800px;
+   
+}
+#content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+    width: 95%;
+    margin-left: 50px;
+    margin-right: 50px;
+   
+}
+#contentp{
+    margin-top: 250px;
+   
+}
+#content-img img{
+    margin-top: 60px; 
+    height: 700px;
+    width: 100%;
+    border-radius: 4%;
+    background-attachment: fixed;
+    
+}
+#taste{
+    font-size: 50px;
+    margin: 0px 0px 15px ;
+    color:rgb(3,21,23);
+  
+}
+#con{
+    text-align:left;
+    font-size: 20px;
+    color: #333;
+    
+}
+#book{
+    background-color:rgb(3,21,23);
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+#book:hover{
+    background-color:rgba(218, 212, 212, 0.877);
+    color:black;
+}
+#cards{
+    height: 800px;
+    width: 100%;
+    background-color:rgb(3,21,23) ;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.imge{
+    height: 60%;
+    width: 80%;
+    margin: 40px 40px 0px 40px;
+   
+}
+.imge:hover{
+    transform:scale(1.2);
+}
+#h1{
+    background-color:rgb(3,21,23);
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color: whitesmoke;
+    margin: 20px 10px;
+}
+#res{
+      /* width: 100%; */
+    margin-left: 40px;
+    margin-right: 65px; 
+    height: 500px;
+}
+#imm
+{
+    position: absolute;
+    height: 500px;
+    width: 100%;
+    /* background-color: #efb51e; */
+}
+#rese{
+    position: absolute;
+}
+#rese h1{
+    color: rgb(2, 2, 2);
+   font-size: 40px;
+    margin-left: 620px;
+    margin-top: 20px;
+   
+}
+#rese h3{
+    color:  rgb(21, 188, 21);
+    font-size: 20px;
+     margin-left: 650px;
+  
+}
+#inpput{
+    margin-left: 570px;
+    margin-top: 130px;
+    position: absolute;
+    padding: 12px 39px;
+    border-radius: 6px;
+
+    width:20%;
+    height: 6%;
+  
+    color: rgb(0, 0, 0);
+    /* background-color:rgb(3,21,23); */
+    background: transparent;
+    
+}
+#input{
+    margin-left: 180px;
+    margin-top: 130px; 
+    position: absolute;
+    padding: 12px 39px;
+    border-radius: 6px;
+    width:20%;
+    height: 6%;
+   
+    color: rgb(7, 7, 7);
+    /* background-color:rgb(3,21,23); */
+    background: transparent;
+   
+}
+#inputt{
+    margin-left: 1000px;
+    margin-top: 130px; 
+    margin: 2px solid  rgb(4, 4, 4);
+
+    position: absolute;
+   
+    border-radius: 6px;
+    width:20%;
+    height: 6%;
+    
+    color: rgb(14, 13, 13);
+    /* background-color:rgb(3,21,23); */
+    background: transparent;
+   
+
+}
+#textareaa{
+   
+    margin-left: 180px;
+    margin-top: 240px;
+    position: absolute;
+    margin: 2px solid  rgb(11, 11, 11);
+    width:77%;
+    height: 15%;
+    border-radius: 5px;
+    color: rgb(10, 10, 10);
+    background-color:rgb(3,21,23);
+    text-align:start;
+    background: transparent;
+   
+}
+#byt{
+    margin-left: 560px;
+    margin-top: 410px; 
+    margin: 2px solid  white;
+
+    position: absolute;
+   
+    border-radius: 6px;
+    width:20%;
+    height: 6%;
+    
+    color: rgb(0, 0, 0);
+    background-color: rgba(39, 169, 39, 0.911);
+}
+#what{
+    margin-top: 500px;
+  
+}
+#WHAT{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(3,21,23);
+    margin-top: -180px;
+}
+#on{
+    height: 600px;
+    width: 100%;
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+.ke{
+    height: 35%;
+    width: 70%;
+    margin: 40px 60px 0px 40px;
+    
+}
+.ke:hover{
+    transform:scale(1.2);
+ 
+}
+h5{
+    font-size: 30px;
+   margin-left: 110px;
+    margin-top: 60px;
+    color: rgb(3,21,23);
+}
+#mge{
+    margin-left: 60px;
+    margin-top: 50px;
+    color: #333;
+    font-size: 20px;
+}
+#mgge{
+    margin-left: 60px;
+    margin-top: 50px;
+    color: #333;
+    font-size: 20px;
+}
+#mmge{
+    margin-left: 60px;
+    margin-top: 50px;
+    color: #333;
+    font-size: 20px;
+}
+#last{
+ background-color: #101010;
+ height: 275px;
+ width: 100%;
+ margin-top: -70px;
+}
+#flavour{
+    text-align: start;
+    margin-top: 10px;
+    color: rgb(152, 157, 161);
+    margin-left: 60px;
+ 
+
+   
+}
+#poto{
+    width: 100%;
+    height: 200px;
+    margin-top: 500px;
+}
+#pop{
+    width: 100%;
+    height: 450px;
+}
+#Fusion{
+   
+    display: flex;
+    gap: 2rem;
+    
+}
+#footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+   
+
+}
+#m0n
+{
+    color: rgb(152, 157, 161);
+    margin-left: 130px;
+    margin-top: 10px;
+    
+}
+#pp{
+    margin-top: 10px;
+    color: rgb(152, 157, 161);
+    margin-left: 150px;
+}
+#copyr
+{
+    color: rgb(152, 157, 161);
+    text-align: center;
+    margin-top: 5px;
+}
+#rooftop{
+    position: absolute; 
+    margin-top: 10px;
+  margin-left:610px ;
+  color: azure;
+  font-size: 40px;
+  background-color: rgba(129, 129, 225, 0.196);
+}
+
